@@ -11,7 +11,8 @@
     "lint": "eslint --cache --ext .js,.jsx ."
   },
   "engines": {
-    "node": "4.2.4"
+    "node": "4.2.4",
+    "npm": "2.14.x"
   },
   "dependencies": {
     "express": "4.13.4",
