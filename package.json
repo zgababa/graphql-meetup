@@ -1,16 +1,19 @@
 {
   "name": "graphql-meetup",
   "author": "Fabien de Maestri",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Website to manage talks for GraphQL Meetup",
   "scripts": {
-    "run": "webpack",
-    "run-watch" : "webpack --progress --colors --watch",
-    "start": "node --harmony ./dist/app.bundle.js",
+    "build": "webpack",
+    "run-watch": "webpack --progress --colors --watch",
+    "start": "node --harmony index.js",
     "posttest": "npm run lint",
     "lint": "eslint --cache --ext .js,.jsx ."
   },
   "dependencies": {
+    "express": "4.13.4",
+    "mustache-express": "1.2.2",
+    "node-jsx-babel": "0.14.2",
     "react": "15.1.0",
     "react-dom": "15.1.0",
     "react-router": "2.4.1"
