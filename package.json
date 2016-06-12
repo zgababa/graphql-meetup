@@ -10,6 +10,7 @@
     "posttest": "npm run lint",
     "lint": "eslint --cache --ext .js,.jsx ."
   },
+  "engineStrict": true,
   "engines": {
     "node": "4.2.4",
     "npm": "2.14.x"
