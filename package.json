@@ -10,6 +10,9 @@
     "posttest": "npm run lint",
     "lint": "eslint --cache --ext .js,.jsx ."
   },
+  "engines": {
+    "node": "4.2.4"
+  },
   "dependencies": {
     "express": "4.13.4",
     "mustache-express": "1.2.2",
