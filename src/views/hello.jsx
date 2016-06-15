@@ -1,3 +1,3 @@
 const React = require('react');
 
-module.exports = () => (<div>Hello World</div>);
+module.exports = () => (<div>Hello World !</div>);
