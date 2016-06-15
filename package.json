@@ -4,8 +4,6 @@
   "version": "0.2.0",
   "description": "Website to manage talks for GraphQL Meetup",
   "scripts": {
-    "build": "webpack",
-    "run-watch": "webpack --progress --colors --watch",
     "start": "node --harmony index.js",
     "posttest": "npm run lint",
     "lint": "eslint --cache --ext .js,.jsx ."
